@@ -18,7 +18,7 @@
 <p>These rules describe the structure of valid programs in the language.</p>
 
 # Project Structure
-Here are all the program files in ***LexicalSyntax*** folder
+Here are all the program files in ***Lexical Syntax*** folder
 
 >`lexer.py`: Lexical analysis implementation. <br><br>
 >`parser.py`: Syntax analysis implementation. <br><br>
@@ -52,7 +52,7 @@ Please find the sample input file at `test.txt`
 >3. Run the program by navigating to the `lexer.py` file in the project directory under ***Lexical Analysis*** folder.
 >4. Execute the program `lexer.py` using your IDE.
 >5. Enter the regular expression in the console.
->6. The output will be showing the different type of token base on regular expression entered.
+>6. The output will be showing the different type of token based on regular expression entered.
 
 ## Run the Syntax analysis phase
 ### Method 1 (Load text file)
