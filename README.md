@@ -38,21 +38,57 @@ Here are all the program files in ***LexicalSyntax*** folder
 >**NodeType**: Specifying the type of each AST node. <br><br>
 
 # Example for input data
-<p>Please find the sample input file at `test.txt</p>
+Please find the sample input file at `test.txt`
 
-# Running the Program
-## Using an IDE
+# Requirements
+<ul>
+  <li>Visual Studio Code (or any preferred IDE Python development environment)</li>
+</ul>
+
+# Getting Started
+## Run the lexical analysis phase
 >1. Open your preferred IDE that supports Python programming. 
 >2. Load the project by opening the project folder.
->3. Run the program by navigating to the `main.py` file in the project directory.
+>3. Run the program by navigating to the `lexer.py` file in the project directory under ***Lexical Analysis*** folder.
+>4. Execute the program `lexer.py` using your IDE.
+>5. Enter the regular expression in the console.
+>6. The output will be showing the different type of token base on regular expression entered.
+
+## Run the Syntax analysis phase
+### Method 1 (Load text file)
+>1. Open your preferred IDE that supports Python programming. 
+>2. Load the project by opening the project folder.
+>3. Run the program by navigating to the `main.py` file in the project directory under ***Lexical Syntax*** folder.
 >4. Execute the program `main.py` using your IDE.
->5. Enter code directly into the console prompt.
->6. Type _exit_ to end the program or file to input the path from a file.
+>5. To load the text file type in the word _file_ in the console.
+>6. Copy and paste the path of the `test.txt` file in the console.
+>7. The output is generated for both parse tree and Abstract Syntax Tree (AST).
+>8. Enter _exit_ to end the program or file to input the path from a file.
 
-How to run on text case
+### Method 2 (Enter Command)
+>1. Open your preferred IDE that supports Python programming. 
+>2. Load the project by opening the project folder.
+>3. Run the program by navigating to the `main.py` file in the project directory under ***Lexical Syntax*** folder.
+>4. Execute the program `main.py` using your IDE.
+>5. Enter basic arithmetic expressions command in the console.
+>6. The output is generated for both parse tree and Abstract Syntax Tree (AST).
 
+## Example regular expression
+<ul>
+  <li>5+7*10-3</li>
+  <li>Aplus = 80%(3+2)+"Excellent"</li>
+  <li>x = 7+10/2*(2+8)</li>
+  <li>&</li>
+  <li>final$</li>
+  <li>Hello = “Yen San”</li>
+</ul>
 
-
+## Example arithmetic expressions
+<ul>
+  <li>5+7*10-3</li>
+  <li>3+4-6*2</li>
+  <li>j=3+r</li>
+</ul>
 
 # Contributors
 <p>This assignment was developed by the following members</p>
